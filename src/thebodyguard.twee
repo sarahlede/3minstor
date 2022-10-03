@@ -11,4 +11,7 @@
 The Bodyguard
 
 :: Start
-You have been hired to be a bodyguard for Gen Star 
+The {{{<<typesim>>}}} macro allows you to //simulate// user input, but actually show them a predefined message. Try typing in the box below for an example:
+
+<<typesim "Congragulations, you have been chosen to be Gen Star's personal bodyguard.\
+<</typesim>>\
