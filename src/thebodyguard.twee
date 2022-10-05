@@ -8,10 +8,227 @@
 }
 
 :: StoryTitle
-The Bodyguard
+The Assistant
 
 :: Start
-The {{{<<typesim>>}}} macro allows you to //simulate// user input, but actually show them a predefined message. Try typing in the box below for an example:
+Congratulations, you have been chosen to be Gen Star's personal assistant during the press tour for her new movie Strange Days.
 
-<<typesim "Congragulations, you have been chosen to be Gen Star's personal bodyguard.\
-<</typesim>>\
+Your first day is tomorrow and her team must fill you in on everything you need to know. 
+
+You have already recieved a message from her manager. 
+
+<<message '1 Message from Mr. Manager'>>\
+    Welcome to the Gen Star Team! For now we will be signing you onto a temporary contract, seeing how things go during this press tour. As you may know, Gen is very particular about what she likes and dislikes... her last assistant was fired after bringing her a 5 star breakfast rather than a smaller, healthier option. So remember little things like that... anyways you start tomorrow. Good luck!
+    Mr. Manager\
+<</message>>
+
+Respond below:
+
+<<typesim "Thank you for the opportunity and the tip! Can't wait to start.">> Text sent!
+<</typesim>>
+
+
+/* https://twinery.org/cookbook/twine1/macros/button.html */
+<<button [[Go to First Day!|"Test"]]>><</button>>
+
+
+
+
+:: Test
+7 PM: 
+It's your first day on the job and Gen is getting ready for her red carpet. What are you getting her for breakfast?
+
+[[Yogurt, granola, and strawberries]]
+
+or
+
+[[5 Star Breakfast]]
+
+:: 5 Star Breakfast 
+She yells at you "are you trying to make me gain weight so I can't fit into my wardobe!?"
+then has her team of lawyers send you a termination letter
+
+:: Yogurt, granola, and strawberries
+She nods at you for choosing the healthy breakfast, than asks you to facetime her daughter. Who are you facetiming? 
+
+[[Ben]], her two year old son 
+
+or 
+
+[[Ren]], her eight year old daughter
+
+:: Ben
+She says "He's only two..." then has her team of lawyers send you a termination letter
+
+:: Ren
+She facetimes Ren and they have a good conversation about school and her bedtime routine.
+
+Gen now needs something to do while she waits for hair and makeup. What do you suggest? 
+
+[[Swimming]]
+
+or
+
+[[Painting]]
+
+or
+
+[[Drinking and Gossiping]]
+
+:: Swimming
+She goes swimming...
+
+Gen is done swimming and hair and make up is here. Do you suggest 
+[[She takes a shower and makes the stylist team wait]]
+
+or
+
+[[Just dry off]]
+
+:: She takes a shower and makes the stylist team wait
+Gen's hair is WET causing even more time, making her late to the event.
+You've been fired
+
+:: Just dry off 
+The application for the makeup and body makeup is ruined from the chlorine. You've been fired 
+
+
+:: Drinking and Gossiping
+She tells you "I'm not going to get drunk before an event and gossip with some peasant"
+then calls a new assistant
+
+:: Painting
+She paints... but she wants to listen to music while she does. What are you playing? 
+
+[[The melodic and emotional Beach House track, PPP]]
+
+or
+
+[[The upbeat and timeless classic P.Y.T by Michael Jackson]]
+
+:: The melodic and emotional Beach House track, PPP
+She starts crying, then fires you after 2:03 minutes into the song 
+
+:: The upbeat and timeless classic P.Y.T by Michael Jackson
+She says "oh yes that's the one" and sings along while painting
+
+Gen is running late now, should she go to the hotel or get glammed in the car? 
+
+[[Get ready in the car]]
+
+or 
+
+[[Go to the hotel and get ready]]
+
+
+:: Get ready in the car
+Gen got car sick and threw up all over her outfit. You've been kicked out the car and fired.
+
+:: Go to the hotel and get ready
+She's arrived to the hotel but the paparazzi have already spotted her Mercedes Sprinter. Should she...
+
+[[Risk being spotted]] at this event that she's supposed to make a surprise appearance at
+
+or
+
+[[Run late and go to another hotel]]
+
+:: Risk being spotted
+She made it and has not been spotted yet... but she must still make it to the Presidential Suite through 10 flights of stairs. Should she
+
+[[Go alone to the Presidential Suite]]
+
+or 
+
+[[Go with her entire team]] 
+
+:: Go alone to the Presidential Suite 
+Gen was kidnapped, so her her other assistant fires you!
+:: Go with her entire team
+She's been spotted and ruins the surprise... she fires you
+:: Run late and go to another hotel
+The Hilton family offer her a shared room but a Motel 6 is able to provide a whole floor. Which do you suggest?
+
+[[Share a suite with Paris Hilton]] since she's in town
+
+or 
+
+[[Motel 6]]
+
+:: Share a suite with Paris Hilton
+Gen had a bad falling out with Paris a few years back... she fires you 
+
+:: Motel 6
+Gen says "you know me so well"
+
+You're minutes away from the hotel, what changes do you need to have made before she arrives?
+
+[[Titanium drinking straws]]
+
+[[Freshly painted walls]]
+
+[[Red toilet paper]]
+
+[[100% cotton uniforms for the staff]]
+
+::Freshly painted walls
+Gen has passed out from breathing in the fresh paint. You're fired
+
+::Titanium drinking straws
+Gen did not find this necessarry... she takes $600 out of your paycheck for this cost... but she does not fire you
+Her laptop is now missing, what are you doing?
+
+[[Looking for it yourself]]
+
+
+[[Letting the hotel beware of the missing laptop]]
+
+
+[[Look for it AND let the hotel know it's missing]]
+
+:: 100% cotton uniforms for the staff
+She thinks they look cute! But now her laptop is missing, what are you doing? 
+
+[[Looking for it yourself]]
+
+
+[[Letting the hotel beware of the missing laptop]]
+
+
+[[Look for it AND let the hotel know it's missing]]
+
+:: Looking for it yourself
+Where are you looking for it? 
+
+[[Hotel lobby]]
+
+or
+
+[[Car]]
+
+:: Letting the hotel beware of the missing laptop
+One of the Motel 6 employees stole it and leaked Gen's work and private information. You're fired! 
+
+:: Look for it AND let the hotel know it's missing
+Someone has found it but are blackmailing you for money or they'll leak everything on it... What is your technique?
+
+[[Tell Gen]]
+
+or 
+
+[[Negotiate with them]]
+
+:: Negotiate with them
+It was a trick to see if you would tell Gen that someone was threatening to leak her stuff on her laptop...
+You've been fired!
+
+:: Tell Gen
+Her team handles it, nods, and says thank you 
+Now she is getting a little hungry, what are you getting her?
+
+:: Red toilet paper
+She hasn't gone to the bathroom yet so she hasn't noticed the red toilet paper...
+But she is getting a little hungry, what are you getting her? 
+
+
+    
