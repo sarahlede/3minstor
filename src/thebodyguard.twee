@@ -206,6 +206,23 @@ or
 
 [[Car]]
 
+:: Hotel lobby 
+You've been running around drawing attenion, Gen has been spotted
+
+You're fired!
+
+:: Car 
+It was in the car 
+
+Now she is getting a little hungry, what are you getting her?
+[[Desert]]
+
+[[Deli Tray]]
+
+or 
+
+[[Juicy Baked Chicken]]
+
 :: Letting the hotel beware of the missing laptop
 One of the Motel 6 employees stole it and leaked Gen's work and private information. You're fired! 
 
@@ -225,10 +242,66 @@ You've been fired!
 :: Tell Gen
 Her team handles it, nods, and says thank you 
 Now she is getting a little hungry, what are you getting her?
+[[Desert]]
+
+[[Deli Tray]]
+
+or 
+
+[[Juicy Baked Chicken]]
 
 :: Red toilet paper
 She hasn't gone to the bathroom yet so she hasn't noticed the red toilet paper...
 But she is getting a little hungry, what are you getting her? 
+[[Desert]]
 
+[[Deli Tray]]
 
-    
+or 
+
+[[Juicy Baked Chicken]]
+
+:: Desert
+Gen yells at you for trying to tempt her to break her diet... and she fires you.
+
+:: Deli Tray
+Gen throws the tray at you... then fires you
+
+:: Juicy Baked Chicken 
+Gen cheats her diet and says not to tell 
+
+She is almost ready for the event now, what should she get done before she leaves? 
+
+[[Taking pictures for Instagram]]
+
+or
+
+[[Going over her speech]]
+
+:: Taking pictures for Instagram
+Gen takes a few pictures before excusing herself to use the bathroom... until she fires you for thinking she uses red toilet paper 
+
+:: Going over her speech
+She thanks you for reminding her, she hasn't gone over it with someone and you helped with adjustments. 
+
+You are now on your way to the event, what are you suggesting to keep Gen's mind focused?
+
+[[Drinking alcohol]]
+
+or 
+
+[[Facetiming her husband, Len]]
+
+:: Drinking alcohol
+Gen is nervous so she thinks it's a great idea.
+
+What are you giving her to drink? 
+
+[[Beer]]
+
+or
+
+[[Wine]]
+
+:: Beer
+Gen is drinking a little too much, you going to tell her to stop or say nothing? 
