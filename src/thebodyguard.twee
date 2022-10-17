@@ -11,14 +11,14 @@
 The Assistant
 
 :: Start
-Congratulations, you have been chosen to be Gen Star's personal assistant during the press tour for her new movie Strange Days.
+Congratulations, you have been chosen to be Gen Star's personal assistant during the press tour for her new album.
 
 Your first day is tomorrow and her team must fill you in on everything you need to know. 
 
 You have already recieved a message from her manager. 
 
 <<message '1 Message from Mr. Manager'>>\
-    Welcome to the Gen Star Team! For now we will be signing you onto a temporary contract, seeing how things go during this press tour. As you may know, Gen is very particular about what she likes and dislikes... her last assistant was fired after bringing her a 5 star breakfast rather than a smaller, healthier option. So remember little things like that... anyways you start tomorrow. Good luck!
+    Welcome to the Gen Star Team! For now we will be signing you onto a temporary contract, seeing how things go during this press tour. As you may know, Gen is very particular about what she likes and dislikes... her last assistant was fired after bringing her a 5 star breakfast rather than a smaller, healthier option. So remember little things like that... anyways you start tomorrow and Gen has a red carpet plus speech to present! Good luck!
     Mr. Manager\
 <</message>>
 
@@ -45,8 +45,10 @@ or
 [[5 Star Breakfast]]
 
 :: 5 Star Breakfast 
-She yells at you "are you trying to make me gain weight so I can't fit into my wardobe!?"
-then has her team of lawyers send you a termination letter
+<<fadein 10s>>She yells at you "are you trying to make me gain weight so I can't fit into my wardobe!?"<</fadein>>
+
+
+<<fadein 5s 5s>><<fadeout 5s 11s>>then has her team of lawyers send you a termination letter.<</fadeout>><</fadein>>
 
 :: Yogurt, granola, and strawberries
 She nods at you for choosing the healthy breakfast, than asks you to facetime her daughter. Who are you facetiming? 
@@ -58,7 +60,10 @@ or
 [[Ren]], her eight year old daughter
 
 :: Ben
-She says "He's only two..." then has her team of lawyers send you a termination letter
+<<fadein 10s>>She says "He's only two..."<</fadein>>
+
+
+<<fadein 5s 5s>><<fadeout 5s 11s>>then has her team of lawyers send you a termination letter.<</fadeout>><</fadein>>
 
 :: Ren
 She facetimes Ren and they have a good conversation about school and her bedtime routine.
@@ -86,17 +91,23 @@ or
 [[Just dry off]]
 
 :: She takes a shower and makes the stylist team wait
-Gen's hair is WET causing even more time, making her late to the event.
-You've been fired
+<<fadein 10s>>Gen's hair is WET causing even more time, making her late to the event.<</fadein>>
+
+
+<<fadein 5s 5s>><<fadeout 5s 11s>>You've been fired.<</fadeout>><</fadein>>
+
 
 :: Just dry off 
-The application for the makeup and body makeup is ruined from the chlorine. You've been fired 
+<<fadein 10s>>The application for the makeup and body makeup is ruined from the chlorine.<</fadein>>
 
+
+<<fadein 5s 5s>><<fadeout 5s 11s>>You've been fired<</fadeout>><</fadein>>
 
 :: Drinking and Gossiping
-She tells you "I'm not going to get drunk before an event and gossip with some peasant"
-then calls a new assistant
+<<fadein 10s>>She tells you "I'm not going to get drunk before an event and gossip with some peasant"<</fadein>>
 
+
+<<fadein 5s 5s>><<fadeout 5s 11s>>then calls a new assistant<</fadeout>><</fadein>>
 :: Painting
 She paints... but she wants to listen to music while she does. What are you playing? 
 
@@ -107,8 +118,10 @@ or
 [[The upbeat and timeless classic P.Y.T by Michael Jackson]]
 
 :: The melodic and emotional Beach House track, PPP
-She starts crying, then fires you after 2:03 minutes into the song 
+<<fadein 10s>>She starts crying,<</fadein>>
 
+
+<<fadein 5s 5s>><<fadeout 5s 11s>>then fires you after 2:03 minutes into the song <</fadeout>><</fadein>>
 :: The upbeat and timeless classic P.Y.T by Michael Jackson
 She says "oh yes that's the one" and sings along while painting
 
@@ -122,7 +135,10 @@ or
 
 
 :: Get ready in the car
-Gen got car sick and threw up all over her outfit. You've been kicked out the car and fired.
+<<fadein 10s>>Gen got car sick and threw up all over her outfit.<</fadein>>
+
+
+<<fadein 5s 5s>><<fadeout 5s 11s>> You've been kicked out the car and fired. <</fadeout>><</fadein>>
 
 :: Go to the hotel and get ready
 She's arrived to the hotel but the paparazzi have already spotted her Mercedes Sprinter. Should she...
@@ -143,9 +159,17 @@ or
 [[Go with her entire team]] 
 
 :: Go alone to the Presidential Suite 
-Gen was kidnapped, so her her other assistant fires you!
+<<fadein 10s>>Gen was kidnapped.<</fadein>>
+
+
+<<fadein 5s 5s>><<fadeout 5s 11s>> So her other assistant has fired you. <</fadeout>><</fadein>>
+
 :: Go with her entire team
-She's been spotted and ruins the surprise... she fires you
+<<fadein 10s>>She's been spotted and ruins the surprise<</fadein>>
+
+
+<<fadein 5s 5s>><<fadeout 5s 11s>> She fires you <</fadeout>><</fadein>>
+
 :: Run late and go to another hotel
 The Hilton family offer her a shared room but a Motel 6 is able to provide a whole floor. Which do you suggest?
 
@@ -156,7 +180,10 @@ or
 [[Motel 6]]
 
 :: Share a suite with Paris Hilton
-Gen had a bad falling out with Paris a few years back... she fires you 
+<<fadein 10s>>Gen had a bad falling out with Paris a few years back...<</fadein>>
+
+
+<<fadein 5s 5s>><<fadeout 5s 11s>> She fires you <</fadeout>><</fadein>>
 
 :: Motel 6
 Gen says "you know me so well"
@@ -172,7 +199,10 @@ You're minutes away from the hotel, what changes do you need to have made before
 [[100% cotton uniforms for the staff]]
 
 ::Freshly painted walls
-Gen has passed out from breathing in the fresh paint. You're fired
+<<fadein 10s>>Gen has passed out from breathing in the fresh paint.<</fadein>>
+
+
+<<fadein 5s 5s>><<fadeout 5s 11s>> You're fired <</fadeout>><</fadein>>
 
 ::Titanium drinking straws
 Gen did not find this necessarry... she takes $600 out of your paycheck for this cost... but she does not fire you
@@ -207,10 +237,10 @@ or
 [[Car]]
 
 :: Hotel lobby 
-You've been running around drawing attenion, Gen has been spotted
+<<fadein 10s>>You've been running around drawing attenion, Gen has been spotted<</fadein>>
 
-You're fired!
 
+<<fadein 5s 5s>><<fadeout 5s 11s>> You're fired <</fadeout>><</fadein>>
 :: Car 
 It was in the car 
 
@@ -224,7 +254,10 @@ or
 [[Juicy Baked Chicken]]
 
 :: Letting the hotel beware of the missing laptop
-One of the Motel 6 employees stole it and leaked Gen's work and private information. You're fired! 
+<<fadein 10s>>One of the Motel 6 employees stole it and leaked Gen's work and private information.<</fadein>>
+
+
+<<fadein 5s 5s>><<fadeout 5s 11s>> You're fired <</fadeout>><</fadein>>
 
 :: Look for it AND let the hotel know it's missing
 Someone has found it but are blackmailing you for money or they'll leak everything on it... What is your technique?
@@ -236,8 +269,10 @@ or
 [[Negotiate with them]]
 
 :: Negotiate with them
-It was a trick to see if you would tell Gen that someone was threatening to leak her stuff on her laptop...
-You've been fired!
+<<fadein 10s>>It was a trick to see if you would tell Gen that someone was threatening to leak her stuff on her laptop...<</fadein>>
+
+
+<<fadein 5s 5s>><<fadeout 5s 11s>> You're fired <</fadeout>><</fadein>>
 
 :: Tell Gen
 Her team handles it, nods, and says thank you 
@@ -262,10 +297,16 @@ or
 [[Juicy Baked Chicken]]
 
 :: Desert
-Gen yells at you for trying to tempt her to break her diet... and she fires you.
+<<fadein 10s>>Gen yells at you for trying to tempt her to break her diet...<</fadein>>
+
+
+<<fadein 5s 5s>><<fadeout 5s 11s>> and she fires you <</fadeout>><</fadein>>
 
 :: Deli Tray
-Gen throws the tray at you... then fires you
+<<fadein 10s>>Gen throws the tray at you...<</fadein>>
+
+
+<<fadein 5s 5s>><<fadeout 5s 11s>> then fires you <</fadeout>><</fadein>>
 
 :: Juicy Baked Chicken 
 Gen cheats her diet and says not to tell 
@@ -279,7 +320,10 @@ or
 [[Going over her speech]]
 
 :: Taking pictures for Instagram
-Gen takes a few pictures before excusing herself to use the bathroom... until she fires you for thinking she uses red toilet paper 
+<<fadein 10s>>Gen takes a few pictures before excusing herself to use the bathroom...<</fadein>>
+
+
+<<fadein 5s 5s>><<fadeout 5s 11s>>  until she fires you for thinking she uses red toilet paper <</fadeout>><</fadein>>
 
 :: Going over her speech
 She thanks you for reminding her, she hasn't gone over it with someone and you helped with adjustments. 
@@ -297,11 +341,99 @@ Gen is nervous so she thinks it's a great idea.
 
 What are you giving her to drink? 
 
+
 [[Beer]]
 
 or
 
 [[Wine]]
 
+:: Facetiming her husband, Len
+<<fadein 10s>>Gen recently filed for divorce and she feels offended..<</fadein>>
+
+
+<<fadein 5s 5s>><<fadeout 5s 11s>> Fired <</fadeout>><</fadein>>
+
 :: Beer
-Gen is drinking a little too much, you going to tell her to stop or say nothing? 
+Gen is drinking a little too much, you going to...?
+[[Tell her to stop]]
+
+or 
+
+[[Say nothing]]
+
+:: Wine
+Gen is drinking a little too much, you going to...?
+[[Tell her to stop]]
+
+or 
+
+[[Say nothing]]
+
+:: Tell her to stop
+<<fadein 10s>>You just pissed Gen off...<</fadein>>
+
+
+<<fadein 5s 5s>><<fadeout 5s 11s>> You're fired <</fadeout>><</fadein>>
+:: Say nothing
+Gen is now drunk on the red carpet doing interviews, and the reporters are swaming her like bees to your honey... Do you...
+[[Let her finish]]
+
+or
+
+[[Interrupt]]
+
+:: Let her finish
+<<fadein 10s>>Gen just exposed to much about her personal life and is already trending under the hashtag #GenStopTalking<</fadein>>
+
+
+<<fadein 5s 5s>><<fadeout 5s 11s>> so of course... you're fired  <</fadeout>><</fadein>>
+:: Interrupt 
+Gen yells at you in front of hundred of paparazzi, embarrassing you for life...
+
+But you're not fired... yet 
+
+Gen is now posing for paparazzi on the red carpet but her outfit has crinkled up from sitting in the car, are you...
+
+Getting in Gen's shots to [[fix her outfit]]
+
+or
+
+[[Waiting till after]] she gets off the red carpet
+
+:: Waiting till after 
+<<fadein 10s>>Because you didn't fix her outfit, the media has started pregnancy rumors.<</fadein>>
+
+
+<<fadein 5s 5s>><<fadeout 5s 11s>> You're fired <</fadeout>><</fadein>>
+
+:: fix her outfit 
+Gen is a little annoyed but she thanks you and heads into the event 
+
+After giving her speech and saying hello to everyone, Gen is no longer feeling the vibe and wants to fly back home.
+Unfortunately there's not enough room on her private jet to accomadate the entire entourage, who you making stay behind? 
+
+[[The stylist]]
+
+[[Security]]
+
+or 
+
+[[The flight crew]]
+
+:: The stylist
+Gen agrees since she has a few days off and puts her stylist on the next flight available.
+
+Congratulations you survived your first day as Gen Star's personal assistant. Keep up the good work!
+
+:: Security
+<<fadein 10s>>Gen was manhandled at the airport by a mob of fans...<</fadein>>
+
+
+<<fadein 5s 5s>><<fadeout 5s 11s>> You're fired <</fadeout>><</fadein>>
+
+:: The flight crew 
+<<fadein 10s>>Who did you expect to fly the plane? <</fadein>>
+
+
+<<fadein 5s 5s>><<fadeout 5s 11s>> You are and deserved to be fired  <</fadeout>><</fadein>>
